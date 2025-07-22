@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    justify-content: center; /* Optional: centers content horizontally */
+}
+
+button {
+    color: white;
+    background-color: darkred; /* <-- Added missing background-color value */
+    border: none;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+button:hover {
+    cursor: pointer; /* Fixed typo from 'curor' */
+    background-color: darkgreen; /* Fixed typo from 'backgrtound-color' */
+}
